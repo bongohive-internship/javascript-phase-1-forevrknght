@@ -11,4 +11,4 @@ var eat = 5;
 var ageDif = maxAge - cAge;
 var totalEaten = ageDif * eat;
 
-window.alert("You will need NN to last you until the ripe old age of X");
+window.alert('You will need ' + totalEaten + ' to last you until the ripe old age of ' + maxAge);
